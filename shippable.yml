@@ -5,4 +5,4 @@ python:
 build:
   ci:
     - echo Now running $(python --version)
-    - if [ "$(python --version)" === "2.7.6" ]; then foo; fi
+    - if [ "$(python --version)" == "Python 2.7.6" ]; then foo; fi
